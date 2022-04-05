@@ -1,0 +1,130 @@
+/* css reset  */
+*{  font-family: 'Bree Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+body{
+    font-family: 'Bree Serif', serif;
+    width: 100vw;
+    height: 100vh;
+}
+/* Navigation Bar Section  */
+.navbar{
+    background-color: rgb(65, 5, 114);
+    width: 9vw;
+    height: 100vh;
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+}
+#nav li{
+    margin: 20px;
+    margin-left: 0px;
+    
+}
+#nav {
+    
+    margin: 10px;
+}
+#nav li a{
+    padding: 10px;
+  border-radius: 7px;
+}
+
+#nav li a:hover{
+background-color: yellow;
+color: black;
+}
+
+/* Home Section  */
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 91vw;
+    float: right;
+}
+.home div{
+ padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 88vw;
+  float: right;
+}
+#Quote{
+   background-color: rgb(236, 55, 55);
+   padding: 20px;
+   padding-bottom: 10px;
+}
+#Quote p{
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    font-size: 1.1rem;
+}
+#photo {
+    display: flex;
+    flex-direction: row;
+    width: 91vw;
+    float: right;
+   
+  
+}
+#photo p{
+    padding: 30px;
+    font-size: 3rem;
+    width: 29vw;
+    
+}
+#sp{
+    font-size: 1.2rem;
+}
+/* Specialities Section  */
+#special {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 91vw;
+    
+    float: right;
+    margin-top: 40px;
+}
+.spec{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  width: 18vw;
+}
+.spec p{
+    text-align: center;
+    margin: 5px;
+}
+.spec span{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+.ss{
+    color: red;
+  font-size: 1.3rem;
+    padding: 10px;
+   
+}
+/* Utility Classes */
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
